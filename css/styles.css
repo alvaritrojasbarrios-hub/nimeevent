@@ -1,0 +1,176 @@
+* {
+    margin: 25px;
+    padding: 0;
+}
+
+body {
+    background-color: #c2cae8;
+    color: #111d4a;
+}
+
+#inicio {
+    background-image: url(https://blogdestinia.com/wp-content/uploads/2023/03/naka-meguro-tokio-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 8px;    
+    text-align: center;
+    border-radius: 20px;
+    color: #f5f1ed;
+}
+
+.fecha-lugar {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: #f5f1ed;
+}
+
+h2 {
+    font-size: 26px;
+    clear: both;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: #8789c0;
+    padding: 20px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #111d4a;
+    font-weight: bold;
+    margin: 0 50px;
+    transition: 0.1s;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    background-color: #45f0df;
+    padding: 21px 20px 21px 22px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #111d4a;
+}
+
+.enlace {
+    text-align: center;
+}
+
+.cosplay {
+    border-left: 5px solid #45f0df;
+    border-radius: 10px;
+    display: table;
+    background-color: #8789c0;
+}
+
+.cosplay p {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+img.miku {
+    width: 200px;
+    height: auto;
+}
+
+img.invitado {
+    width: 300px;
+    height: auto;
+}
+
+img.Feria {
+    width: 300px;
+    height: auto;
+}
+
+img.Karaoke {
+    width: 300px;
+    height: auto;
+}
+
+img.Concierto {
+    width: 300px;
+    height: auto;
+}
+
+img.Campeonato {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    color: #111d4a;
+    margin-top: 25px;
+    padding: 15px 0 0 0;
+}
+
+div a {
+    transition: 0.1s;
+}
+
+div a:hover {
+    background-color: #45f0df;
+    padding: 21px 20px 21px 22px;
+    border-radius: 10px;
+}
+
+.volver {
+    text-align: right;
+    transition: 0.1s;
+    
+}
+
+.volver:hover {
+    background-color: #45f0df;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.quienes-somos {
+    border-left: 5px solid #45f0df;
+    border-radius: 10px;
+    display: table;
+    background-color: #f5f1ed;
+}
+
+.quienes-somos p {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+img.redes {
+    width: 50px;
+    height: auto;
+}
+
+.boton {
+      background-color: #45f0df;
+      color: #111d4a;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+.boton:hover {
+      background-color: #ff7b9c;
+      transform: scale(1.05);
+    }
+
